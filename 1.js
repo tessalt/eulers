@@ -8,13 +8,13 @@ function fizzplusbuzzminusfizzbuzz() {
 	for (var i = 0; i < 1000; i +=3) {
 		threes += i;
 	}
-  for (var j = 0; j < 1000; j +=5) {
-      fives += j;
-  }
-  for (var k = 0; k < 1000; k +=15) {
-      fifteens += k;   
-  }
-  return threes + fives - fifteens;
+	for (var j = 0; j < 1000; j +=5) {
+		fives += j;
+	}
+	for (var k = 0; k < 1000; k +=15) {
+		fifteens += k;   
+	}
+	return threes + fives - fifteens;
 }
 
 console.log(fizzplusbuzzminusfizzbuzz());
