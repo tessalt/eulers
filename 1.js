@@ -4,7 +4,7 @@ var threes = 0;
 var fives = 0;
 var fifteens = 0;
 
-function fizzplusbussminusfizzbuzz() {
+function fizzplusbuzzminusfizzbuzz() {
 	for (var i = 0; i < 1000; i +=3) {
 		threes += i;
 	}
@@ -17,4 +17,4 @@ function fizzplusbussminusfizzbuzz() {
   return threes + fives - fifteens;
 }
 
-console.log(fizzplusbussminusfizzbuzz());
+console.log(fizzplusbuzzminusfizzbuzz());
