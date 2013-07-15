@@ -2,6 +2,17 @@
 
 What is the largest prime factor of the number 600851475143 ?*/
 
+var product = 600851475143;
+
+function isPrime(n) {
+	for (var i = 2; i < n; i++) {
+		if (n % i === 0) {
+			return false;
+		} 
+	}
+	return true;
+}
+
 function largestPrimeFactor(n) {
 	for (var i = 2; i < n; i++) {
 		if (n % i === 0) {
@@ -11,4 +22,4 @@ function largestPrimeFactor(n) {
 	return n;
 }
 
-console.log(largestPrimeFactor(600851475143));
+console.log(largestPrimeFactor(product))
